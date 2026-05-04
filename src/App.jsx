@@ -36,8 +36,6 @@ function App() {
     fetchUsers();
   }, [page]);
 
-  console.log(users)
-
   return (
     <div>
       <h1>Random Users</h1>
